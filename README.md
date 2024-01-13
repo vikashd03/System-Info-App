@@ -1,2 +1,2 @@
-# System-Info-App
-System Info App - Desktop App using Electron Framework
+# System-Info_Project
+windows system information application

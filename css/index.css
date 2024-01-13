@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+#body{
+    margin-top: 30px;
+}
+#options{
+    height: 600px;
+    width: 12%;
+    min-width: 120px;
+    margin-left: 0.3%;
+    border: 2px solid grey;
+    display: flex;
+    float: left;
+    /* border-radius: 15px; */
+    overflow: hidden;
+}
+
+#options:hover{
+    background-color: rgba(196, 216, 216, 0.5);
+}
+
+#details{
+    height: 750px;
+    width: 80%;
+    border: 2px solid grey;
+    display: flex;
+    float: left;
+    /* border-radius: 15px; */
+    overflow: scroll;
+    margin-right: 0.7%;
+    margin-left: 0.7%;
+}
+
+#details:hover{
+    background-color: rgba(196, 216, 216, 0.5);
+}
+
+.detail{
+position: relative;
+left: 10px;
+top: 10px;
+}
+
+.head-text{
+    display: inline;
+    font-size: 18px;
+    position: relative;
+    left: 10px;
+    top: -5px;
+}
+
+.sub-title p{
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    left: 10px;
+}
+
+#options-layout{
+position: relative;
+top: 20px;
+left: 10px;
+}
+
+.btn{
+    border:none;
+    background: none;
+    transform: translateY(-5px);
+}
+
+.option{
+    margin-bottom: 10px;
+}
+
+.none{
+    display:none;
+}
+.detail{
+    font-size: 20px;
+    height: 720px;
+    width: 100%;
+}
+
+.active{
+    display: block;
+}
+
+.detail1 #detail-body .info .content{
+    font-size: 12px;
+    position: relative;
+    left: 35px;
+    top: -10px;
+}
+
+.detail1 #detail-body .info4 .content4 #ram-clockspeed{
+    display: inline-block;
+}
+
+.detail1 #detail-body .info4 .content4 #ram-size{
+    display: inline-block;
+}
+
+.option5 img{
+    position: relative;
+    left: -6px;
+}

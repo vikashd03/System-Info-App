@@ -1,0 +1,20 @@
+{
+  "name": "systeminfo",
+  "version": "1.0.0",
+  "description": "simple system information application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Vikash",
+  "license": "ISC",
+  "dependencies": {
+    "diskusage": "^1.1.2",
+    "electron": "^5.0.4",
+    "gpu-info": "0.0.1",
+    "os": "^0.1.1",
+    "pc": "0.0.6",
+    "systeminformation": "^4.11.6",
+    "usage": "^0.7.1"
+  }
+}
